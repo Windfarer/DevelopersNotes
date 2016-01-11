@@ -11,6 +11,7 @@ brew install python
 ```
 
 ### CentOS
+使用epel源
 ```
 sudo yum install python27 python27-devel
 ```
@@ -37,6 +38,7 @@ pip install virtualenv
 brew install python3
 ```
 ### CentOS
+使用ius源
 ```
 sudo yum install python34u-devel
 ```
