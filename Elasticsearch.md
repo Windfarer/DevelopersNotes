@@ -144,3 +144,5 @@ index.analysis.analyzer.ik.type : “ik”
 
 ## 集群
 实际使用中，阿里云这类的云主机没有办法使用多播自动发现节点，需要在配置文件中设置为单播，并指定机器，才能成功组成集群
+
+单播设置方法请参考[官方文档中的解释](https://www.elastic.co/guide/en/elasticsearch/guide/1.x/_important_configuration_changes.html#_prefer_unicast_over_multicast)
